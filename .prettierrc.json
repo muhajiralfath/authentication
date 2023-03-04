@@ -1,0 +1,22 @@
+{
+  "overrides": [
+    {
+      "files": "*.ejs",
+      "options": {
+        "printWidth": 120,
+        "proseWrap": "always",
+        "htmlWhitespaceSensitivity": "ignore",
+        "overrides": [
+          {
+            "files": "*.ejs",
+            "options": {
+              "parser": "angular",
+              "htmlWhitespaceSensitivity": "ignore",
+              "embeddedLanguageFormatting": "off"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
